@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hábitos de Estudio Efectivos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">📚 Habitos de estudios</div>
+            <ul class="nav-links">
+                <li><a onclick="showPage('inicio')">Inicio</a></li>
+                <li><a onclick="showPage('habitos')">Hábitos</a></li>
+                <li><a onclick="showPage('tareas')">Tareas</a></li>
+                <li><a onclick="showPage('cronometro')">Cronómetro</a></li>
+                <li><a onclick="showPage('flashcards')">Flashcards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="page-section active" id="inicio">
+            <div class="hero-content">
+                <h1>Desarrolla Hábitos de Estudio Efectivos</h1>
+                <p>Transforma tu forma de estudiar y alcanza el éxito académico con nuestras herramientas especializadas</p>
+            </div>
+            <div class="page-content">
+                <h2 class="page-title">¿Qué puedes hacer aquí?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="icon">📖</span>
+                        <h3>Aprende Hábitos</h3>
+                        <p>Descubre los hábitos fundamentales que te ayudarán a estudiar de manera más efectiva y productiva.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="icon">✅</span>
+                        <h3>Gestiona Tareas</h3>
+                        <p>Organiza tus tareas académicas, controla fechas límite y mantén un seguimiento de tu progreso.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="icon">🃏</span>
+                        <h3>Practica con Flashcards</h3>
+                        <p>Refuerza tu aprendizaje con tarjetas interactivas sobre técnicas de estudio comprobadas.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="icon">🎯</span>
+                        <h3>Mejora tu Rendimiento</h3>
+                        <p>Aplica técnicas probadas científicamente para maximizar tu tiempo de estudio y retención.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="habitos">
+            <div class="page-content">
+                <h2 class="page-title">Hábitos Fundamentales de Estudio</h2>
+                <div class="habits-grid">
+                    <div class="habit-card">
+                        <span class="icon">⏰</span>
+                        <h3>Horario Consistente</h3>
+                        <p>Establece horarios fijos de estudio. La consistencia ayuda a tu cerebro a prepararse para el aprendizaje y mejora la concentración.</p>
+                    </div>
+                    <div class="habit-card">
+                        <span class="icon">🎯</span>
+                        <h3>Objetivos Claros</h3>
+                        <p>Define metas específicas y alcanzables para cada sesión de estudio. Esto te mantiene enfocado y motivado.</p>
+                    </div>
+                    <div class="habit-card">
+                        <span class="icon">📝</span>
+                        <h3>Toma de Notas Activa</h3>
+                        <p>Desarrolla un sistema de notas efectivo. Usa colores, diagramas y resúmenes para hacer la información memorable.</p>
+                    </div>
+                    <div class="habit-card">
+                        <span class="icon">🧠</span>
+                        <h3>Repaso Espaciado</h3>
+                        <p>Revisa el material en intervalos regulares. Esta técnica mejora significativamente la retención a largo plazo.</p>
+                    </div>
+                    <div class="habit-card">
+                        <span class="icon">🏠</span>
+                        <h3>Espacio de Estudio</h3>
+                        <p>Crea un ambiente dedicado al estudio, libre de distracciones y con buena iluminación.</p>
+                    </div>
+                    <div class="habit-card">
+                        <span class="icon">💪</span>
+                        <h3>Autocuidado</h3>
+                        <p>Mantén una rutina saludable con ejercicio, alimentación balanceada y descanso adecuado.</p>
+                    </div>
+                </div>
+                
+                <h2 class="page-title" style="margin-top: 3rem;">Consejos Adicionales</h2>
+                <div class="tips-list">
+                    <div class="tip-item">
+                        <h4>🔕 Elimina Distracciones</h4>
+                        <p>Silencia notificaciones y usa aplicaciones de bloqueo</p>
+                    </div>
+                    <div class="tip-item">
+                        <h4>🍎 Alimentación</h4>
+                        <p>Come alimentos que potencien la concentración</p>
+                    </div>
+                    <div class="tip-item">
+                        <h4>💧 Hidratación</h4>
+                        <p>Mantente hidratado para un mejor rendimiento mental</p>
+                    </div>
+                    <div class="tip-item">
+                        <h4>🎵 Música Adecuada</h4>
+                        <p>Usa música instrumental o sonidos de la naturaleza</p>
+                    </div>
+                    <div class="tip-item">
+                        <h4>👥 Grupo de Estudio</h4>
+                        <p>Estudia con compañeros para intercambiar ideas</p>
+                    </div>
+                    <div class="tip-item">
+                        <h4>📱 Tecnología</h4>
+                        <p>Usa apps y herramientas digitales como apoyo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="tareas">
+            <div class="page-content">
+                <h2 class="page-title">Gestor de Tareas Académicas</h2>
+                <div class="task-manager">
+                    <div class="task-form">
+                        <h3>📝 Agregar Nueva Tarea</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="taskTitle">Tarea:</label>
+                                <input type="text" id="taskTitle" placeholder="Descripción de la tarea" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="taskSubject">Materia:</label>
+                                <select id="taskSubject" required>
+                                    <option value="">Seleccionar materia</option>
+                                    <option value="Matemáticas">Matemáticas</option>
+                                    <option value="Historia">Historia</option>
+                                    <option value="Ciencias">Ciencias</option>
+                                    <option value="Literatura">Literatura</option>
+                                    <option value="Inglés">Inglés</option>
+                                    <option value="Física">Física</option>
+                                    <option value="Química">Química</option>
+                                    <option value="Filosofía">Filosofía</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="taskDate">Fecha límite:</label>
+                                <input type="date" id="taskDate" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="addTask()" class="add-task-btn">➕ Agregar Tarea</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tasks-container">
+                        <h3>📋 Mis Tareas</h3>
+                        <div class="tasks-filter">
+                            <button class="filter-btn active" onclick="filterTasks('all', this)">Todas</button>
+                            <button class="filter-btn" onclick="filterTasks('pending', this)">Pendientes</button>
+                            <button class="filter-btn" onclick="filterTasks('completed', this)">Completadas</button>
+                            <button class="filter-btn" onclick="filterTasks('overdue', this)">Atrasadas</button>
+                        </div>
+                        <div id="tasksList" class="tasks-list">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="cronometro">
+            <div class="page-content">
+                <h2 class="page-title">Cronómetro de Estudio</h2>
+                <div class="timer-container">
+                    
+                    <div class="timer-modes">
+                        <button class="timer-mode active" id="pomodoroBtn" onclick="setTimerMode('pomodoro', this)">
+                            🍅 Pomodoro<br><small>25 min</small>
+                        </button>
+                        <button class="timer-mode" id="shortBreakBtn" onclick="setTimerMode('shortBreak', this)">
+                            ☕ Descanso Corto<br><small>5 min</small>
+                        </button>
+                        <button class="timer-mode" id="longBreakBtn" onclick="setTimerMode('longBreak', this)">
+                            🛌 Descanso Largo<br><small>15 min</small>
+                        </button>
+                        <button class="timer-mode" id="customBtn" onclick="setTimerMode('custom', this)">
+                            ⚙️ Personalizado<br><small>Manual</small>
+                        </button>
+                    </div>
+
+                    <div class="timer-display-container">
+                        <div class="timer-label" id="timerLabel">Sesión de Estudio Pomodoro</div>
+                        
+                        <svg class="progress-ring" viewBox="0 0 200 200">
+                            <circle class="progress-ring-circle" cx="" cy="" r=""></circle>
+                            <circle class="progress-ring-progress" cx="" cy="" r="" id="progressCircle"></circle>
+                        </svg>
+                        
+                        <div class="timer-display-inner">
+                            <div class="timer-display" id="timerDisplay">25:00</div>
+                            <div id="customTimeInputs" style="display: none; margin-top: 1rem;">
+                                <input type="number" id="customMinutes" min="1" max="180" value="25" style="width: 80px; padding: 0.5rem; border-radius: 5px; border: none; text-align: center; margin: 0 0.5rem;">
+                                <span style="color: white;">minutos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timer-controls">
+                        <button class="timer-btn" id="startBtn" onclick="startTimer()">▶️ Iniciar</button>
+                        <button class="timer-btn pause" id="pauseBtn" onclick="pauseTimer()" disabled>⏸️ Pausar</button>
+                        <button class="timer-btn reset" id="resetBtn" onclick="resetTimer()">🔄 Reiniciar</button>
+                    </div>
+
+                    <div class="timer-stats">
+                        <div class="stat-card">
+                            <div class="stat-number" id="pomodorosCompleted">0</div>
+                            <div class="stat-label">Pomodoros Completados</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="totalStudyTime">0</div>
+                            <div class="stat-label">Tiempo de Estudio Total (min)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="flashcards">
+            <div class="page-content">
+                <h2 class="page-title">Flashcards de Técnicas de Estudio</h2>
+                <div class="flashcard-container">
+                    <div class="flashcard" onclick="flipFlashcard()">
+                        <div class="flashcard-inner" id="flashcardInner">
+                            <div class="flashcard-front">
+                                <h3 id="flashcardQuestion">¿Qué es la Técnica Pomodoro?</h3>
+                            </div>
+                            <div class="flashcard-back">
+                                <p id="flashcardAnswer">Un método de gestión del tiempo que divide el trabajo en intervalos de 25 minutos, seguidos de un breve descanso de 5 minutos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button class="flashcard-btn" id="prevFlashcard" onclick="changeFlashcard(-1)" disabled>Anterior</button>
+                        <button class="flashcard-btn" id="nextFlashcard" onclick="changeFlashcard(1)">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Habitos de estudios. </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
